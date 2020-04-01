@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
 eHash = {
-    'initPrompt': '\$',
-    'opTool': './op',
-    'url': 'NULL',
-    'email': 'NULL',
-    'key': 'NULL',
+    'initPrompt': '\$', ### the prompt your shell uses.  
+    'opTool': './op', ### path to the 1password cli tool binary
+    'url': 'NULL', ### 1password sign in address 
+    'email': 'NULL', ### email address used to sign into 1password
+    'key': 'NULL', ### 1 password secret key
 }
 
 badHabits = 'bad_habits.json'
