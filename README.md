@@ -1,6 +1,8 @@
 # 1password_cli_wrapper
 A wrapper for the 1password cli tool
 
+Currently only returns username, password and OTP.  Let me know what ought to added!  
+
 At the top of the script set these variables to suit your needs.
 ```
 eHash = {
